@@ -17,36 +17,7 @@ Stacking Regressor: Combines multiple models with CatBoost as the meta learner f
 
 Models Used:
 
-XGBoost,
-CatBoost,
-LGBM (LightGBM),
-RandomForest,
-The final model is a Stacking Regressor with CatBoost as the meta learner and the other models as base learners.
-
-
-Usage:
-
-Open the app in your browser.
-Select the car features such as year, engine size, mileage, brand, and model.
-The app will provide an estimated price based on the input features.
-
-
-Dataset:
-
-The dataset used for training the models includes features like the year of manufacture, engine size, mileage, brand, and model of the car. Ensure your dataset is clean and preprocessed before training the models.
-
-
-Performance:
-
-Through extensive testing, the CatBoost model demonstrated the best performance. Although the Stacking Regressor model was tested with CatBoost as the meta learner, CatBoost alone provided the most accurate predictions.
-
-Contributing:
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows the project’s style and passes all tests.
-
-License:
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+XGBoost, CatBoost, LGBM (LightGBM), RandomForest. The final model is a Stacking Regressor with CatBoost as the meta learner and the other models as base learners.
 
 
 Contact:
