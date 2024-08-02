@@ -7,17 +7,20 @@ This project leverages various machine learning models to predict car prices bas
 Features:
 
 Interactive Interface: Built with Streamlit for easy interaction.
+
 Robust Model Implementation: Uses advanced algorithms like XGBoost, CatBoost, LGBM, and RandomForest.
+
 In-Depth Analysis: Thorough evaluation of each model’s performance.
+
 Stacking Regressor: Combines multiple models with CatBoost as the meta learner for enhanced performance.
 
 
 Models Used:
 
-XGBoost
-CatBoost
-LGBM (LightGBM)
-RandomForest
+XGBoost,
+CatBoost,
+LGBM (LightGBM),
+RandomForest,
 The final model is a Stacking Regressor with CatBoost as the meta learner and the other models as base learners.
 
 
